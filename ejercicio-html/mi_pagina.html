@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Mi página HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Página de Práctica HTML</h1>
+        <p>HTML son las siglas de Hypertext Markup Language (Lenguaje de Marcado de Hipertexto) y es el lenguaje estándar para crear y estructurar el contenido de las páginas web.</p>
+        <nav>
+           <a href="#introduccion">Introducción</a> |
+           <a href="#como-funciona">Como Funciona</a> |
+           <a href="#complementos">Complementos</a>
+        </nav>
+    </header>
+    <main>
+        <section id="introduccion" class="container">
+            <h2>Introducción</h2>
+            <p>Se utiliza para organizar elementos como texto, imágenes, videos y enlaces, y funciona mediante etiquetas que definen la estructura de un documento para que los navegadores web puedan mostrarlo correctamente. </p>
+        </section>
+        <article id="como-funciona" class="container">
+            <h3>Como Funciona</h3>
+                <ul>
+                    <li><strong>Lenguaje de marcado:</strong> HTML no es un lenguaje de programación, sino un lenguaje de marcado que utiliza etiquetas para definir el propósito y la estructura del contenido. </li>
+                    <li><strong>Estructura:</strong> Crea un esqueleto para una página web, indicando el orden de los elementos y qué debe mostrarse. </li>
+                    <li><strong>Etiquetas:</strong> El código se compone de etiquetas que encierran el contenido.  </li>
+                    <li><strong>Navegador:</strong> Los navegadores web (como Chrome o Firefox) interpretan el código HTML y lo transforman en la página web visual que vemos en pantalla. </li>
+                </ul>
+                <div class="container cont-img">
+                    <img src="https://www.epitech-it.es/wp-content/uploads/2024/02/pexels-pixabay-270404.jpg">
+                </div>
+                
+        </article>
+        <section class="container cont-table">
+            <table>
+                <h3>Tabla ejemplo</h3>
+                <thead>
+                    <tr>
+                        <th>Tipo 1</th>
+                        <th>Tipo 2</th>
+                        <th>Tipo 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>A</td>
+                        <td>B</td>
+                        <td>C</td>
+                    </tr>
+                    <tr>
+                        <td>A1</td>
+                        <td>A2</td>
+                        <td>A3</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </section>
+        <section class="container cont-form">
+            
+            <form id="form1">
+                <h3>Formulario</h3>
+                <div>
+                    <label for="">Nombre</label>
+                    <input type="text" name="" id="">
+                </div>
+                <div>
+                    <label for="">Apellido</label>
+                    <input type="text" name="" id="">
+                </div>
+                <div>
+                    <label for="">Correo</label>
+                    <input type="mail" name="" id="">
+                </div>
+              
+                <button tyoe="submit">Guardar</button>
+               
+                
+            </form>
+        </section>
+        <section class="container">
+            <aside>
+               <p>"el clima de la tierra es, ante todo, consecuencia de un cierto equilibrio térmico entre la atmósfera y el océano" (Sadourny, 2005, p. 52)</p>
+            </aside>
+        </section>
+        
+    </main>
+</body>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">Rosa María Jiménez Hernández</div>
+            <div class="col-md-6">2O25 <a href="mailto:rosajihe9@gmail.com">,rosajihe9@gmail.com</a></div>
+        </div>
+    </div>
+</footer>
+</html>

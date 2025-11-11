@@ -36,7 +36,9 @@ console.log("El mas poderoso es:",fmasPoderoso());
 /////Funcion que devuelve el promedio del poder ,del tipo que asigne
 
 function promedioPoder(tipo){
+  
   const filtro = inventarios.filter(item => item.tipo === tipo)
+
   const totalPoder = filtro.reduce((suma, item) => suma + item.poder, 0)
   const prom = totalPoder / filtro.length
   return prom

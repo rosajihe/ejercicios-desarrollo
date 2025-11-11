@@ -16,6 +16,9 @@ header h1{
     font-weight: bold;
    
 }
+header p {
+    padding: 25px 0px;
+}
 nav a {
     color: peru;
 }
@@ -100,4 +103,23 @@ aside {
     text-align: center;
     font-style: italic;
     color: grey;
+}
+footer {
+    padding: 40px 0px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+footer a {
+    color: black;
+}
+
+@media (max-width: 767px) {
+.cont-img img {
+    width: 100%;
+}
+table {
+
+    width: 100%;
+}
 }
